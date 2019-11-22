@@ -24,10 +24,16 @@
 			window.alert("Please enter task to add to the list");
 		}
 		else{
+			input.value = input.value + ' ';
 			var list = document.getElementById('list');
 			var listitem = document.createElement('li');
+			var deletebutton = document.createElement('button');
+			var deletetext = document.createTextNode('Delete');
+			deletebutton.appendChild(deletetext);
+			deletebutton.setAttribute('class','delete');
 			var text = document.createTextNode(input.value);
 			listitem.appendChild(text);
+			listitem.appendChild(deletebutton);
 			list.appendChild(listitem);
 			input.value = '';
 		}
