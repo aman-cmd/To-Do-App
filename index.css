@@ -1,10 +1,11 @@
 h1{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-weight: 100;
 	color: darkcyan;
 }
 .main{
 	border: 1px solid #ccc;
-	font-family: Roboto, Helvetica, sans-serif;
+	font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
 	color: darkslategray;
 	padding: 20px;
 	width: 50%;
@@ -37,6 +38,7 @@ button:hover{
 	background: #ffffff;
 }
 .delete{
+	f loat: right;
 	background:#ffffff;
 	color: red;
 }
